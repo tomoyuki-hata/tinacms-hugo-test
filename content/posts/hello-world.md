@@ -15,3 +15,5 @@ Suspendisse facilisis, mi ac scelerisque interdum, ligula ex imperdiet felis, a 
 ## 日本語で追記
 
 日本語で編集しています
+
+![](/uploads/naxos-ge4bbfc0c3_1280.jpg)
