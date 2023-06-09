@@ -10,6 +10,10 @@ export default defineConfig({
     process.env.VERCEL_GIT_COMMIT_REF! || // Vercel branch env
     process.env.HEAD!, // Netlify branch env
   token: process.env.TINA_TOKEN!,
+  cmsCallback: cms => {
+    cms.flags.set("branch-switcher", true);
+    return cms;
+  },
   build: {
     outputFolder: "admin",
     publicFolder: "static",
